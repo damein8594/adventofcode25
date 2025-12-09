@@ -1,11 +1,15 @@
-def p1():
+def handle():
     grid = []
     with open("../inputs/input4", "r") as file:
         for line in file:
             line = line.strip()
             line = list(line)
             grid.append(line)
+    return grid
 
+
+def p1():
+    grid = handle()
     rows = len(grid)
     cols = len(grid[0])
     checknums = [-1, 0, 1]
@@ -34,13 +38,7 @@ def p1():
     print(ans)
 
 def p2():
-    grid = []
-    with open("../inputs/input4", "r") as file:
-        for line in file:
-            line = line.strip()
-            line = list(line)
-            grid.append(line)
-
+    grid = handle()
     rows = len(grid)
     cols = len(grid[0])
     checknums = [-1, 0, 1]
