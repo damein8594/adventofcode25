@@ -4,7 +4,7 @@
 
 def p1():
     ans = 0
-    with open("inputs/input3", "r") as file:
+    with open("../inputs/input3", "r") as file:
         for line in file:
             line = line.strip()
             n = len(line)
@@ -25,7 +25,7 @@ def p1():
 ######################################################part 2############################################################
 def p2():
     ans = 0
-    with open("inputs/input3", "r") as file:
+    with open("../inputs/input3", "r") as file:
         for line in file:
             line = line.strip()
             count = 0

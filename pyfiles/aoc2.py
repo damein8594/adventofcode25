@@ -6,7 +6,7 @@
 def p1():
     ans = 0
     filelist = []
-    with open('inputs/input2', 'r') as file:
+    with open('../inputs/input2', 'r') as file:
         for line in file:
             oned_filelist = line.split(",")
         print(oned_filelist)
@@ -34,7 +34,7 @@ def p1():
 def p2():
     ans = 0
     filelist = []
-    with open('inputs/input2', 'r') as file:
+    with open('../inputs/input2', 'r') as file:
         for line in file:
             oned_filelist = line.split(",")
         print(oned_filelist)
