@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5336fe66-5c12-4e82-a2cc-1332291cadeb" name="Changes" comment="moved python files into pyfiles directory&#10;&#10;put each part into a function&#10;&#10;plan to make a run file at the end to call the function day and part youd like">
-      <change afterPath="$PROJECT_DIR$/inputs/input4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyfiles/aoc4.py" afterDir="false" />
+    <list default="true" id="5336fe66-5c12-4e82-a2cc-1332291cadeb" name="Changes" comment="finished day 5 part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfiles/aoc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfiles/aoc1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfiles/aoc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfiles/aoc2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfiles/aoc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfiles/aoc3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyfiles/aoc5.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfiles/aoc5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,7 @@
     "Python.aoc2.executor": "Run",
     "Python.aoc3.executor": "Run",
     "Python.aoc4.executor": "Run",
+    "Python.aoc5.executor": "Run",
     "Python.aocday3p2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -134,7 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765236863835</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed file handeling on all days&#10;&#10;completed day 4">
+      <option name="closed" value="true" />
+      <created>1765239769053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765239769053</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added a file handling subroutine on day 4">
+      <option name="closed" value="true" />
+      <created>1765240228696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765240228696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished day 5 part 1">
+      <option name="closed" value="true" />
+      <created>1765241285298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765241285298</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +177,10 @@
     <MESSAGE value=".gitignore created" />
     <MESSAGE value="finished day 3 part 2&#10;rewrote day 3 part 1&#10;cleaned day 1, 2 and 3 up" />
     <MESSAGE value="moved python files into pyfiles directory&#10;&#10;put each part into a function&#10;&#10;plan to make a run file at the end to call the function day and part youd like" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved python files into pyfiles directory&#10;&#10;put each part into a function&#10;&#10;plan to make a run file at the end to call the function day and part youd like" />
+    <MESSAGE value="fixed file handeling on all days&#10;&#10;completed day 4" />
+    <MESSAGE value="added a file handling subroutine on day 4" />
+    <MESSAGE value="finished day 5 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 5 part 1" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
