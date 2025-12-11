@@ -1,9 +1,6 @@
-from pyparsing import empty
-from sqlalchemy import column
-
-grid = []
-ans = 0
 def p1():
+    grid = []
+    ans = 0
     with open('../inputs/input6', 'r') as file:
         for line in file:
             line = line.strip()
@@ -33,39 +30,77 @@ def p1():
 
     print(ans)
 
-grid = []
-with open('../inputs/input6', 'r') as file:
-    for line in file:
-        line = line.rstrip("\n")
-        grid.append(list(line))
+def p2():
+    grid = []
+    with open('../inputs/input6', 'r') as file:
+        for line in file:
+            line = line.rstrip("\n")
+            grid.append(list(line))
 
-max_len = max(len(row) for row in grid)
-for row in grid:
-    while len(row) < max_len:
-        row.append(" ")
+    max_len = max(len(row) for row in grid)
+    for row in grid:
+        while len(row) < max_len:
+            row.append(" ")
 
-rows = len(grid)
-cols = max_len
+    rows = len(grid)
+    cols = max_len
 
-columns_to_keep = []
-for col in range(cols):
-    empty = True
+    columns_to_keep = []
+    for col in range(cols):
+        empty = True
+        for row in range(rows):
+            if grid[row][col] != " ":
+                empty = False
+                break
+        if not empty:
+            columns_to_keep.append(col)
+
+    new_grid = []
     for row in range(rows):
-        if grid[row][col] != " ":
-            empty = False
-            break
-    if not empty:
-        columns_to_keep.append(col)
+        new_row = [grid[row][col] for col in columns_to_keep]
+        new_grid.append(new_row)
 
+    grid = new_grid
 
-new_grid = []
-for row in range(rows):
-    new_row = [grid[row][col] for col in columns_to_keep]
-    new_grid.append(new_row)
+    rows = len(grid) - 1
+    cols = len(grid[0])
 
-grid = new_grid
+    for row in grid:
+        print(row)
 
+    operators = []
+    for c in range(cols - 1, -1, -1):
+        if grid[rows][c] != " ":
+            operators.append([grid[rows][c], c])
 
-for row in grid:
-    print(row)
+    op_num = 0
+    nums = []
+
+    for col in range(cols - 1, -1, -1):
+
+        colnum = ""
+        op = operators[op_num][0]
+        op_pos = operators[op_num][1]
+
+        for row in range(0,rows):
+            cell = grid[row][col]
+            if cell != " ":
+                colnum += cell
+
+        nums.append(int(colnum))
+
+        if col == op_pos:
+            if op == "*":
+                subans = 1
+                for num in nums:
+                    subans *= num
+            else:
+                subans = 0
+                for num in nums:
+                    subans += num
+            ans += subans
+            op_num += 1
+            nums = []
+
+    print(ans)
 
