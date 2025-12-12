@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5336fe66-5c12-4e82-a2cc-1332291cadeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/aoc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aoc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5336fe66-5c12-4e82-a2cc-1332291cadeb" name="Changes" comment="finished day 6">
+      <change afterPath="$PROJECT_DIR$/inputs/input7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyfiles/day7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs/input6" beforeDir="false" afterPath="$PROJECT_DIR$/inputs/input6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyfiles/day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyfiles/day6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;damein8594&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/damein8594/adventofcode25.git&quot;,
+    &quot;accountId&quot;: &quot;c2c1c7aa-0af7-47a5-ae24-a94a9e23878f&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -43,7 +53,11 @@
     "Python.aoc2.executor": "Run",
     "Python.aoc3.executor": "Run",
     "Python.aocday3p2.executor": "Run",
+    "Python.day1.executor": "Run",
+    "Python.day5.executor": "Run",
     "Python.day6.executor": "Run",
+    "Python.day7.executor": "Run",
+    "Python.run.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -86,8 +100,20 @@
       <workItem from="1765443273743" duration="580000" />
       <workItem from="1765443858773" duration="1026000" />
       <workItem from="1765448553570" duration="362000" />
-      <workItem from="1765460898397" duration="3780000" />
+      <workItem from="1765460898397" duration="6382000" />
+      <workItem from="1765467798521" duration="64000" />
+      <workItem from="1765467879079" duration="194000" />
+      <workItem from="1765529056191" duration="10039000" />
     </task>
+    <task id="LOCAL-00001" summary="finished day 6">
+      <option name="closed" value="true" />
+      <created>1765464735682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765464735682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +129,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 6" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -121,5 +151,9 @@
     <SUITE FILE_PATH="coverage/aoc25$aoc2.coverage" NAME="aoc2 Coverage Results" MODIFIED="1765207009178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aoc25$day6.coverage" NAME="day6 Coverage Results" MODIFIED="1765464580974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfiles" />
     <SUITE FILE_PATH="coverage/aoc25$aoc3.coverage" NAME="aoc3 Coverage Results" MODIFIED="1765208820167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aoc25$day1.coverage" NAME="day1 Coverage Results" MODIFIED="1765467930068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfiles" />
+    <SUITE FILE_PATH="coverage/aoc25$day5.coverage" NAME="day5 Coverage Results" MODIFIED="1765535867560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfiles" />
+    <SUITE FILE_PATH="coverage/aoc25$run.coverage" NAME="run Coverage Results" MODIFIED="1765468038820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aoc25$day7.coverage" NAME="day7 Coverage Results" MODIFIED="1765539923341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyfiles" />
   </component>
 </project>
